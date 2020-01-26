@@ -8,12 +8,6 @@ public class SwipeFunctionality : MonoBehaviour
     private Vector2 fingerUp;
     float swipeThreshold = 50f;
 
-    void Start()
-    {
-        fingerDown = fingerUp;
-    }
-
-
     void Update()
     {
         if(Input.touchCount > 0)
